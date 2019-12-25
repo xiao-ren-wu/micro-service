@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: micro-service-order
+  jackson:
+    default-property-inclusion: non_null
+    date-format: 'yyyy-MM-dd HH:mm:ss'
+    time-zone: 'Asia/Shanghai'
+    serialization:
+      indent_output: true
+      fail_on_empty_beans: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+mybatis-plus:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: org.yuwb.model
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      table-underline: true
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+server:
+  port: 9009
+dubbo:
+  registry:
+    address: nacos://192.168.174.134:8848
