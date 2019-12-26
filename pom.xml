@@ -17,6 +17,9 @@
     <module>micro-service-store</module>
     <module>micro-service-api</module>
     <module>micro-service-common</module>
+    <module>micro-service-paya</module>
+    <module>micro-service-payb</module>
+    <module>micro-service-pkg</module>
   </modules>
   <packaging>pom</packaging>
 
