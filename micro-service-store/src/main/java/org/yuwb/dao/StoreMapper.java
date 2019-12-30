@@ -3,6 +3,8 @@ package org.yuwb.dao;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.yuwb.model.Store;
 
+import java.time.LocalDateTime;
+
 /**
  * @author WbYu
  * e-mail 18629015421@163.com
@@ -14,4 +16,12 @@ import org.yuwb.model.Store;
  * @since java 11
  */
 public interface StoreMapper extends BaseMapper<Store> {
+
+    int selectVersion(String supplierId, String goodsId);
+
+
+    int updateStoreCountByVersion(int version,String supplierId, String goodsId, String updateBy, LocalDateTime updateTime);
+
+
+    int selectStoreCount(String supplierId, String goodsId);
 }

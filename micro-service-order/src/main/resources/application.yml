@@ -11,8 +11,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/store?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    password: yu19970501
+    url: jdbc:mysql://localhost:3306/orders?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
 mybatis-plus:
   mapper-locations: mapper/*.xml
   type-aliases-package: org.yuwb.model
@@ -24,7 +24,12 @@ mybatis-plus:
       logic-not-delete-value: 0
       logic-delete-value: 1
 server:
-  port: 9009
+  port: 9011
 dubbo:
+  scan:
+    base-packages: org.yuwb.provider
+  protocol:
+    name: dubbo
+    port: 12349
   registry:
-    address: zookeeper://172.16.173.128:2181
+    address: nacos://172.16.173.128:8848

@@ -2,7 +2,11 @@ package org.yuwb.model;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -14,7 +18,9 @@ import lombok.experimental.Accessors;
  * @since 2019-12-26
  */
 @Data
-@Accessors(chain = true)
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @TableName("t_order")
 public class Order  {
 

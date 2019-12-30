@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-service-all.iml" filepath="$PROJECT_DIR$/micro-service-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-api/micro-service-api.iml" filepath="$PROJECT_DIR$/micro-service-api/micro-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-common/micro-service-common.iml" filepath="$PROJECT_DIR$/micro-service-common/micro-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-order/micro-service-order.iml" filepath="$PROJECT_DIR$/micro-service-order/micro-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-paya/micro-service-paya.iml" filepath="$PROJECT_DIR$/micro-service-paya/micro-service-paya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-payb/micro-service-payb.iml" filepath="$PROJECT_DIR$/micro-service-payb/micro-service-payb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-pkg/micro-service-pkg.iml" filepath="$PROJECT_DIR$/micro-service-pkg/micro-service-pkg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-store/micro-service-store.iml" filepath="$PROJECT_DIR$/micro-service-store/micro-service-store.iml" />
+    </modules>
+  </component>
+</project>

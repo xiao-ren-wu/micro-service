@@ -28,8 +28,8 @@ dubbo:
     base-packages: org.yuwb.provider
   protocol:
     name: dubbo
-    port: 12345
+    port: 12347
   registry:
-    address: zookeeper://172.16.173.128:2181
+    address: nacos://172.16.173.128:8848
 server:
   port: 9010
