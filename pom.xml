@@ -20,6 +20,7 @@
     <module>micro-service-paya</module>
     <module>micro-service-payb</module>
     <module>micro-service-pkg</module>
+      <module>micro-service-rocketmq-api</module>
   </modules>
   <packaging>pom</packaging>
 

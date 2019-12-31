@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="micro-service-paya" />
-        <module name="micro-service-order" />
         <module name="micro-service-payb" />
         <module name="micro-service-common" />
         <module name="micro-service-api" />
-        <module name="micro-service-store" />
         <module name="micro-service-pkg" />
+        <module name="micro-service-store" />
+        <module name="micro-service-order" />
+        <module name="micro-service-rocketmq-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="micro-service-paya" target="1.8" />
       <module name="micro-service-payb" target="1.8" />
       <module name="micro-service-pkg" target="1.8" />
+      <module name="micro-service-rocketmq-api" target="1.8" />
       <module name="micro-service-store" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +35,7 @@
       <module name="micro-service-paya" options="-parameters" />
       <module name="micro-service-payb" options="-parameters" />
       <module name="micro-service-pkg" options="-parameters" />
+      <module name="micro-service-rocketmq-api" options="-parameters" />
       <module name="micro-service-store" options="-parameters" />
     </option>
   </component>

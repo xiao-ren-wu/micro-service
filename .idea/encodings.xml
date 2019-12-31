@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/micro-service-paya/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service-payb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service-pkg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-rocketmq-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/micro-service-store/src/main/java" charset="UTF-8" />
   </component>
 </project>

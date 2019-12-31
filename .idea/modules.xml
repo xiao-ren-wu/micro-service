@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/micro-service-paya/micro-service-paya.iml" filepath="$PROJECT_DIR$/micro-service-paya/micro-service-paya.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-service-payb/micro-service-payb.iml" filepath="$PROJECT_DIR$/micro-service-payb/micro-service-payb.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-service-pkg/micro-service-pkg.iml" filepath="$PROJECT_DIR$/micro-service-pkg/micro-service-pkg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-rocketmq-api/micro-service-rocketmq-api.iml" filepath="$PROJECT_DIR$/micro-service-rocketmq-api/micro-service-rocketmq-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-service-store/micro-service-store.iml" filepath="$PROJECT_DIR$/micro-service-store/micro-service-store.iml" />
     </modules>
   </component>
